@@ -443,6 +443,16 @@ class TestWasteCalculator(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
+set_website_title("Waste Calculator")
+set_site_information(
+    author="Zoe Tadele",
+    description="Calculate the types of weaste in a area and grade their recycling practices.",
+    sources="Thanks to the Drafter docs and my LLM.",
+    planning=[''],
+    links=["https://github.com/ztadele/waste-calculator-project"]
+)
+hide_debug_information()
+set_website_framed(False)
 
 start_server(create_initial_state())
 
